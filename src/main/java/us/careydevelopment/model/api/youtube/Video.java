@@ -14,8 +14,6 @@ public abstract class Video {
     private List<String> tags;
     private String title;
     private Integer commentCount;
-    private Integer dislikeCount;
-    private Integer likeCount;
     private String thumbnailUrl;
     private Channel channel;
     private Integer viewCount;
@@ -57,18 +55,6 @@ public abstract class Video {
     }
     public void setCommentCount(Integer commentCount) {
         this.commentCount = commentCount;
-    }
-    public Integer getDislikeCount() {
-        return dislikeCount;
-    }
-    public void setDislikeCount(Integer dislikeCount) {
-        this.dislikeCount = dislikeCount;
-    }
-    public Integer getLikeCount() {
-        return likeCount;
-    }
-    public void setLikeCount(Integer likeCount) {
-        this.likeCount = likeCount;
     }
     public String getThumbnailUrl() {
         return thumbnailUrl;
